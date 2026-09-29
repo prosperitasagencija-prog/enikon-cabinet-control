@@ -56,7 +56,7 @@ function formatDay(date) {
 
 function formatWeekRange(start) {
   const end = addDays(start, 6);
-  const f = d => new Intl.DateTimeFormat('hr-HR', { day:'2-digit', month:'2-digit', year:'numeric' }).format(d);
+  const f = d => new Intl.DateTimeFormat('hr-HR', { day:'2-digit', month:'2-digit' }).format(d);
   return `${f(start)} – ${f(end)}`;
 }
 
@@ -111,9 +111,12 @@ function showToast(message, tone='ok') {
 }
 
 function setDirty(on=true) {
-  el('saveBtn').classList.toggle('dirty', on && state.draft.size > 0);
+  const dirty = on && state.draft.size > 0;
+  el('saveBtn').classList.toggle('dirty', dirty);
   el('saveBtn').disabled = state.draft.size === 0;
-  el('unsaved').textContent = state.draft.size ? `${state.draft.size} nespremljenih izmjena` : 'Sve spremljeno';
+  const msg = state.draft.size ? `${state.draft.size} nespremljenih izmjena` : 'Sve spremljeno';
+  if (el('unsaved')) el('unsaved').textContent = msg;
+  if (el('unsavedMobile')) el('unsavedMobile').textContent = msg;
 }
 
 async function loadAll() {
@@ -163,6 +166,7 @@ function currentActiveMaterials() {
 
 function render() {
   el('viewTitle').textContent = currentCabinet().name;
+  el('cabinetLabel').textContent = currentCabinet().name;
   el('weekLabel').textContent = formatWeekRange(state.weekStart);
   el('searchInput').value = state.search;
   el('todayBtn').disabled = ymd(startOfWeek(new Date())) === ymd(state.weekStart);
@@ -188,20 +192,10 @@ function renderCabinet() {
   const weekDates = Array.from({length:7}, (_,i)=>addDays(state.weekStart,i));
   const today = ymd(new Date());
 
-  let totalQty = 0;
-  let totalKg = 0;
-  for (const m of mats) {
-    const latest = latestSnapshotBefore(m.code, state.cabinetId, today);
-    const q = latest?.quantity ?? 0;
-    totalQty += Number(q)||0;
-    if ((m.unit||'kg').toLowerCase()==='kg') totalKg += (Number(m.weight)||0)*(Number(q)||0);
-  }
-  el('kpiMaterials').textContent = mats.length;
-  el('kpiQty').textContent = totalQty;
-  el('kpiWeight').textContent = `${Number(totalKg.toFixed(2))} kg`;
-
+  const weekdayNames = ['Ned','Pon','Uto','Sri','Čet','Pet','Sub'];
   const headDates = weekDates.map(d => {
-    const ds=ymd(d); return `<th class="date-head ${ds===today?'today':''}"><span>${formatDay(d)}</span><small>${['Ned','Pon','Uto','Sri','Čet','Pet','Sub'][d.getDay()]}</small></th>`;
+    const ds = ymd(d);
+    return `<th class="date-head ${ds===today?'today':''}"><span class="day-name">${weekdayNames[d.getDay()]}</span><span class="day-date">${formatDay(d)}</span></th>`;
   }).join('');
 
   const rows = mats.map(m => {
@@ -219,22 +213,19 @@ function renderCabinet() {
     }).join('');
     const weight = m.weight == null ? '—' : `${Number(m.weight)} ${escapeHtml(m.unit||'kg')}`;
     return `<tr>
-      <td class="code-cell">${escapeHtml(m.code)}</td>
       <td class="material-cell">
+        <div class="material-code">${escapeHtml(m.code)}</div>
         <div class="material-name">${escapeHtml(m.material || m.sourceDescription)}</div>
         <div class="mobile-meta"><span>Sistem ${escapeHtml(m.system||'—')}</span><span>AIC ${escapeHtml(m.aic||'—')}</span><span>${weight}</span></div>
       </td>
-      <td class="desktop-col">${escapeHtml(m.system||'—')}</td>
-      <td class="desktop-col">${escapeHtml(m.aic||'—')}</td>
-      <td class="desktop-col">${weight}</td>
       ${dateCells}
       <td class="actions-cell"><button class="icon-btn archive" data-code="${escapeHtml(m.code)}" title="Ukloni iz ormara">⋮</button></td>
     </tr>`;
   }).join('');
 
   el('cabinetTable').innerHTML = `
-    <thead><tr><th class="code-cell">Šifra</th><th class="material-cell">Materijal</th><th class="desktop-col">Sistem</th><th class="desktop-col">AIC</th><th class="desktop-col">Težina</th>${headDates}<th></th></tr></thead>
-    <tbody>${rows || `<tr><td colspan="13" class="empty">Nema aktivnih materijala u ovom ormaru.</td></tr>`}</tbody>`;
+    <thead><tr><th class="material-cell">Materijal</th>${headDates}<th></th></tr></thead>
+    <tbody>${rows || `<tr><td colspan="9" class="empty">Nema aktivnih materijala u ovom ormaru.</td></tr>`}</tbody>`;
 
   bindQuantityControls();
   el('cabinetTable').querySelectorAll('.archive').forEach(b => b.addEventListener('click', () => openArchiveDialog(b.dataset.code)));
@@ -242,6 +233,7 @@ function renderCabinet() {
 }
 
 function bindQuantityControls() {
+
   document.querySelectorAll('.qty-input').forEach(input => {
     input.addEventListener('input', () => {
       const v = input.value === '' ? '' : Math.max(0, Math.floor(Number(input.value)||0));

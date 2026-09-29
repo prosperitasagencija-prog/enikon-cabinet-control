@@ -38,7 +38,6 @@
       <img src="logoenikon.webp" class="logo" alt="ENIKON Aerospace">
       <div class="header-title-wrap">
         <h1>ENIKON Cabinet Control</h1>
-        <p>Praćenje materijala u ormarima</p>
       </div>
     </div>
     <div class="signature">made by J.P.</div>
@@ -63,37 +62,37 @@
     </div>
 
     <section id="cabinetView" class="view-panel">
-      <div class="toolbar-card">
-        <div class="week-nav">
-          <button id="prevWeek" class="nav-btn" aria-label="Prethodni tjedan">‹</button>
-          <div>
-            <small>Tjedan</small>
-            <strong id="weekLabel"></strong>
+      <div class="toolbar-card cabinet-toolbar">
+        <div class="toolbar-top">
+          <div class="week-card">
+            <button id="prevWeek" class="nav-btn" aria-label="Prethodni tjedan">‹</button>
+            <button id="todayBtn" class="week-center ghost-btn" aria-label="Prikaži ovaj tjedan">
+              <small>Tjedan · <span id="cabinetLabel">Ormar 1</span></small>
+              <strong id="weekLabel"></strong>
+              <span class="week-sub">Ovaj tjedan</span>
+            </button>
+            <button id="nextWeek" class="nav-btn" aria-label="Idući tjedan">›</button>
           </div>
-          <button id="nextWeek" class="nav-btn" aria-label="Idući tjedan">›</button>
-          <button id="todayBtn" class="ghost-btn">Ovaj tjedan</button>
+          <div class="action-stack">
+            <button id="copyTodayBtn" class="secondary-btn">Prenesi zadnje stanje na danas</button>
+            <button id="addBtn" class="primary-btn">+ Dodaj materijal</button>
+          </div>
         </div>
-        <div class="toolbar-actions">
-          <button id="copyTodayBtn" class="secondary-btn">Prenesi zadnje stanje na danas</button>
-          <button id="addBtn" class="primary-btn">+ Dodaj materijal</button>
+        <div class="toolbar-search-row">
+          <label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Pretraži šifru, materijal, sistem ili AIC"></label>
         </div>
-      </div>
-
-      <div class="kpi-grid">
-        <div class="kpi-card"><span class="kpi-icon">▣</span><div><small>Materijala</small><strong id="kpiMaterials">0</strong></div></div>
-        <div class="kpi-card"><span class="kpi-icon">#</span><div><small>Ukupno komada</small><strong id="kpiQty">0</strong></div></div>
-        <div class="kpi-card"><span class="kpi-icon">kg</span><div><small>Ukupna težina</small><strong id="kpiWeight">0 kg</strong></div></div>
       </div>
 
       <div class="content-card">
-        <div class="list-toolbar">
-          <label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Pretraži šifru, materijal, sistem ili AIC"></label>
-          <button id="saveBtn" class="save-btn" disabled>Spremi izmjene</button>
-        </div>
         <div class="table-scroll">
           <table id="cabinetTable" class="data-table cabinet-table"></table>
         </div>
-        <div class="table-hint">Na telefonu povuci tablicu lijevo/desno za pregled datuma. Broj možeš promijeniti tipkama − / + ili ga izravno upisati.</div>
+        <div class="table-hint">Povuci lijevo/desno za pregled datuma. Količinu promijeni tipkama − / + ili izravnim unosom.</div>
+      </div>
+
+      <div class="bottom-save-wrap">
+        <div id="unsavedMobile" class="save-state">Sve spremljeno</div>
+        <button id="saveBtn" class="save-btn bottom-save" disabled>Spremi izmjene</button>
       </div>
     </section>
 
@@ -104,7 +103,7 @@
           <button id="masterAdd" class="primary-btn">+ Novi materijal</button>
         </div>
         <div class="table-scroll"><table id="masterTable" class="data-table"></table></div>
-        <p class="help-text">Baza materijala služi za automatsko popunjavanje Materijala, Sistema, AIC-a i Težine kada nešto dodaješ u ormar.</p>
+        <p class="help-text padded-help">Baza materijala služi za automatsko popunjavanje Materijala, Sistema, AIC-a i Težine kada nešto dodaješ u ormar.</p>
       </div>
     </section>
 

@@ -1,0 +1,3339 @@
+{
+  "format": "enikon-cabinet-control",
+  "version": 1,
+  "createdAt": "2026-09-29",
+  "cabinets": [
+    {
+      "id": "cabinet1",
+      "name": "Ormar 1"
+    },
+    {
+      "id": "cabinet2a",
+      "name": "Ormar 2A"
+    },
+    {
+      "id": "cabinet2b",
+      "name": "Ormar 2B"
+    }
+  ],
+  "materials": [
+    {
+      "code": "800005",
+      "material": "ALEXIT-Härter 400",
+      "system": "400",
+      "aic": "",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-Härter 400 (6kg)",
+      "active": true
+    },
+    {
+      "code": "800011",
+      "material": "SEEVENAX-Verdünner 75",
+      "system": "75",
+      "aic": "",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "SEEVENAX-Verdünner 75 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800020",
+      "material": "ALEXIT-Verdünner/Thinner 62",
+      "system": "62",
+      "aic": "",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-Verdünner/Thinner 62 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800023",
+      "material": "ALEXIT-Härter/Hardener 450",
+      "system": "450",
+      "aic": "",
+      "weight": 1.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-Härter/Hardener 450 (1kg)",
+      "active": true
+    },
+    {
+      "code": "800037",
+      "material": "116G elfenbein / ivory 1014",
+      "system": "313-02",
+      "aic": "",
+      "weight": 5.0,
+      "unit": "l",
+      "sourceDescription": "SEEVENAX-Primer 313-02, 116G elfenbein / ivory 1014, MV 2:1 (5L)",
+      "active": true
+    },
+    {
+      "code": "800048",
+      "material": "9723 Jana white",
+      "system": "346-57",
+      "aic": "12.36",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57, 9723 Jana white AIC 12.36, MV 6:1 Semi-gloss (12Kg)",
+      "active": true
+    },
+    {
+      "code": "800050",
+      "material": "ALEXIT-Hardener 345-57",
+      "system": "345-57",
+      "aic": "",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-Hardener 345-57 (6Kg)",
+      "active": true
+    },
+    {
+      "code": "800051",
+      "material": "RAL 9005 tiefschwarz / jet black",
+      "system": "346-57",
+      "aic": "",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57 RAL 9005 tiefschwarz / jet black, matt / mat (6kg)",
+      "active": true
+    },
+    {
+      "code": "800064",
+      "material": "118G braunbeige 1011",
+      "system": "113-24",
+      "aic": "",
+      "weight": 10.0,
+      "unit": "kg",
+      "sourceDescription": "SEEVENAX-Grundbeschichtung 113-24, 118G, braunbeige 1011 (10kg/VE)",
+      "active": true
+    },
+    {
+      "code": "800065",
+      "material": "SEEVENAX-Härter / Hardener 115-22",
+      "system": "115-22",
+      "aic": "",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "SEEVENAX-Härter / Hardener 115-22 (5kg/VE)",
+      "active": true
+    },
+    {
+      "code": "800066",
+      "material": "9110 Weiß / White",
+      "system": "343-47",
+      "aic": "",
+      "weight": 10.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-PrimeFill 300 343-47, 9110, Weiß / White (10kg)",
+      "active": true
+    },
+    {
+      "code": "800067",
+      "material": "1815 Light Ivory 1015",
+      "system": "343-55",
+      "aic": "",
+      "weight": 10.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Füllgrund 343-55/primer, 1815, Light Ivory 1015 (10kg)",
+      "active": true
+    },
+    {
+      "code": "800069",
+      "material": "1815 Light Ivory 1015",
+      "system": "343-60",
+      "aic": "",
+      "weight": 10.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Filler 343-60, 1815, Light Ivory 1015 (10kg)",
+      "active": true
+    },
+    {
+      "code": "800070",
+      "material": "ALEXIT-Härter / Hardener 345-15",
+      "system": "345-15",
+      "aic": "",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-Härter / Hardener 345-15 (6kg)",
+      "active": true
+    },
+    {
+      "code": "800071",
+      "material": "ALEXIT-Härter / Hardener 345-19",
+      "system": "345-19",
+      "aic": "",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-Härter / Hardener 345-19 (6Kg)",
+      "active": true
+    },
+    {
+      "code": "800072",
+      "material": "ALEXIT-Härter / Hardener 345-55",
+      "system": "345-55",
+      "aic": "",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-Härter / Hardener 345-55 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800074",
+      "material": "70TY mittelgrau FS 595B 26270",
+      "system": "346-55",
+      "aic": "53.47",
+      "weight": 10.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-55 AIC53.47 70TY mittelgrau FS 595B 26270 matt /mittelgrau FS26270 (10kg)",
+      "active": true
+    },
+    {
+      "code": "800077",
+      "material": "U780 stone",
+      "system": "346-55",
+      "aic": "3.92",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-55, U780, stone AIC 3.92, semi-gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800078",
+      "material": "120B white 7362",
+      "system": "346-57",
+      "aic": "12.16",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57, 120B, white 7362 AIC 12.16, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800079",
+      "material": "144X soft sand",
+      "system": "346-57",
+      "aic": "2.57",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57, 144X, soft sand AIC 2.57, semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800080",
+      "material": "1655 cream grey",
+      "system": "346-57",
+      "aic": "2.12",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57, 1655, cream grey AIC 2.12, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800082",
+      "material": "1684 beige 870",
+      "system": "346-57",
+      "aic": "3.27",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57, 1684, beige 870 AIC 3.27, semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800083",
+      "material": "1773 porcelain",
+      "system": "346-57",
+      "aic": "3.25",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57, 1773, porcelain AIC 3.25, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800084",
+      "material": "512Z blue mezzo",
+      "system": "346-57",
+      "aic": "63.23",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57, 512Z, blue mezzo AIC 63.23, semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800086",
+      "material": "5414 navy blue",
+      "system": "346-57",
+      "aic": "5.12",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57, 5414, navy blue AIC 5.12, semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800087",
+      "material": "60LG light olive green",
+      "system": "346-57",
+      "aic": "4.34",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57, 60LG, light olive green AIC 4.34, semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800089",
+      "material": "70DV foggy",
+      "system": "346-57",
+      "aic": "2.53",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57, 70DV, foggy AIC 2.53, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800091",
+      "material": "70LV ireland grey",
+      "system": "346-57",
+      "aic": "2.37",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57, 70LV, ireland grey AIC 2.37, semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800092",
+      "material": "70TL coolgrey 3",
+      "system": "346-57",
+      "aic": "2.63",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57, 70TL, coolgrey 3 AIC 2.63, semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800094",
+      "material": "70WT iron grey",
+      "system": "346-57",
+      "aic": "2.66",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57, 70WT, iron grey AIC 2.66, semi-gloss(12kg)",
+      "active": true
+    },
+    {
+      "code": "800095",
+      "material": "72HY dawn medium",
+      "system": "346-57",
+      "aic": "1.7",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57, 72HY, dawn medium AIC 1.7, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800096",
+      "material": "72T4 lake medium",
+      "system": "346-57",
+      "aic": "5.74",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57, 72T4, lake medium AIC 5.74, semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800100",
+      "material": "7620 quarz grey",
+      "system": "346-57",
+      "aic": "2.11",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57, 7620, quarz grey AIC 2.11, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800101",
+      "material": "767V taupe",
+      "system": "346-57",
+      "aic": "3.35",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57, 767V, taupe AIC 3.35, semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800102",
+      "material": "7708 fog",
+      "system": "346-57",
+      "aic": "2.16",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57, 7708, fog AIC 2.16, semi-gloss (12 kg VE)",
+      "active": true
+    },
+    {
+      "code": "800104",
+      "material": "773X dream grey",
+      "system": "346-57",
+      "aic": "2.49",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57, 773X, dream grey AIC 2.49, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800108",
+      "material": "840K obscure brown",
+      "system": "346-57",
+      "aic": "6.18",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57, 840K, obscure brown AIC 6.18, semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800109",
+      "material": "864G terra dark",
+      "system": "346-57",
+      "aic": "3.64",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57, 864G, terra dark AIC 3.64, semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800111",
+      "material": "887H autumn",
+      "system": "346-57",
+      "aic": "3.73",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57, 887H, autumn AIC 3.73, semi-gloss(6kg)",
+      "active": true
+    },
+    {
+      "code": "800112",
+      "material": "90CB charcoal",
+      "system": "346-57",
+      "aic": "2.38",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57, 90CB, charcoal, AIC 2.38, semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800113",
+      "material": "9185 grey cloud",
+      "system": "346-57",
+      "aic": "2.8",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57, 9185, grey cloud AIC 2.8, semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800115",
+      "material": "9227 black/schwarz",
+      "system": "346-57",
+      "aic": "11.1",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-57/topcoat,9227 AIC 11.1 black/schwarz semi gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800116",
+      "material": "9685 white pearl",
+      "system": "346-57",
+      "aic": "2.68",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57, 9685, white pearl AIC 2.68, semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800120",
+      "material": "120B white 7362",
+      "system": "346-65",
+      "aic": "12.16",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 120B, white 7362 AIC 12.16, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800122",
+      "material": "132F dawn beige",
+      "system": "346-65",
+      "aic": "3.33",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 132F, dawn beige AIC 3.33, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800129",
+      "material": "144X soft sand",
+      "system": "346-65",
+      "aic": "2.57",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 144X, soft sand AIC 2.57, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800130",
+      "material": "1655 cream grey",
+      "system": "346-65",
+      "aic": "2.12",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 1655, cream grey AIC 2.12, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800131",
+      "material": "1658 hellbeige",
+      "system": "346-65",
+      "aic": "3.32",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 1658, hellbeige AIC 3.32, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800134",
+      "material": "1773 porcelain",
+      "system": "346-65",
+      "aic": "3.25",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 1773, porcelain AIC 3.25, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800141",
+      "material": "512Z blue mezzo",
+      "system": "346-65",
+      "aic": "63.23",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 512Z, blue mezzo AIC 63.23, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800147",
+      "material": "5339 cockpit blue",
+      "system": "346-65",
+      "aic": "5.7",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 5339, cockpit blue AIC 5.7, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800151",
+      "material": "576Y blau Pantone 296C",
+      "system": "346-65",
+      "aic": "",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 576Y, blau Pantone 296C, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800156",
+      "material": "701F moonshadow",
+      "system": "346-65",
+      "aic": "2.32",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 701F, moonshadow AIC 2.32, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800157",
+      "material": "70DV foggy",
+      "system": "346-65",
+      "aic": "2.53",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 70DV, foggy AIC 2.53, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800158",
+      "material": "70LV ireland grey",
+      "system": "346-65",
+      "aic": "2.37",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 70LV, ireland grey AIC 2.37, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800161",
+      "material": "70TL coolgrey 3",
+      "system": "346-65",
+      "aic": "2.63",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 70TL, coolgrey 3 AIC 2.63, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800162",
+      "material": "70TM coolgrey 5",
+      "system": "346-65",
+      "aic": "2.64",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 70TM, coolgrey 5 AIC 2.64, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800163",
+      "material": "70WT iron grey",
+      "system": "346-65",
+      "aic": "2.66",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 70WT, iron grey AIC 2.66, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800169",
+      "material": "72HY dawn medium",
+      "system": "346-65",
+      "aic": "1.7",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 72HY, dawn medium AIC 1.7, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800175",
+      "material": "747A dolphin",
+      "system": "346-65",
+      "aic": "2.19",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 747A, dolphin AIC 2.19, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800176",
+      "material": "749A haze",
+      "system": "346-65",
+      "aic": "2.20",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 749A, haze AIC 2.20, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800181",
+      "material": "7620 quarz grey",
+      "system": "346-65",
+      "aic": "2.11",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 7620, quarz grey AIC 2.11, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800184",
+      "material": "7708 fog",
+      "system": "346-65",
+      "aic": "2.16",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 7708, fog AIC 2.16, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800185",
+      "material": "773X dream grey",
+      "system": "346-65",
+      "aic": "2.49",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 773X, dream grey AIC 2.49, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800189",
+      "material": "788H shadow",
+      "system": "346-65",
+      "aic": "2.35",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 788H, shadow AIC 2.35, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800191",
+      "material": "811H moody brown",
+      "system": "346-65",
+      "aic": "3.77",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 811H, moody brown AIC 3.77, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800193",
+      "material": "8238 sand",
+      "system": "346-65",
+      "aic": "3.5",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 8238, sand AIC 3.5, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800199",
+      "material": "870M dark chestnut",
+      "system": "346-65",
+      "aic": "6.27",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 870M, dark chestnut AIC 6.27, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800200",
+      "material": "90CB charcoal",
+      "system": "346-65",
+      "aic": "2.38",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 90CB, charcoal, AIC 2.38, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800205",
+      "material": "9176 blanc granite",
+      "system": "346-65",
+      "aic": "12.7",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 9176, blanc granite AIC 12.7, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800206",
+      "material": "9185 grey cloud",
+      "system": "346-65",
+      "aic": "2.8",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 9185, grey cloud AIC 2.8, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800209",
+      "material": "9227 black / schwarz",
+      "system": "346-65",
+      "aic": "11.1",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 9227, black / schwarz AIC 11.1, matt / mat (12kg)",
+      "active": true
+    },
+    {
+      "code": "800214",
+      "material": "U141 geisha white",
+      "system": "346-65",
+      "aic": "12.38",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, U141, geisha white AIC 12.38, semi-gloss (12kg)",
+      "active": true
+    },
+    {
+      "code": "800225",
+      "material": "9110 Weiß / White",
+      "system": "364-63",
+      "aic": "",
+      "weight": 10.0,
+      "unit": "kg",
+      "sourceDescription": "CELEROL-Füllhaftgrund 364-63, 9110, Weiß / White (10kg/VE)",
+      "active": true
+    },
+    {
+      "code": "800227",
+      "material": "52DR emperor blue",
+      "system": "404-12",
+      "aic": "5.80",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 404-12/topcoat, 52DR, emperor blue AIC 5.80, semi-gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800229",
+      "material": "9005 tiefschwarz / jet black",
+      "system": "404-12",
+      "aic": "",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 404-12/topcoat, 9005, tiefschwarz / jet black, semi-gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800230",
+      "material": "RAL 9006 white aluminium",
+      "system": "404-12",
+      "aic": "9.10",
+      "weight": 10.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 404-12/topcoat RAL 9006 white aluminium AIC 9.10 (10kg)",
+      "active": true
+    },
+    {
+      "code": "800232",
+      "material": "9010 reinweiß / pure white",
+      "system": "404-12",
+      "aic": "",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 404-12/topcoat, 9010, reinweiß / pure white, matt / mat (5kg)",
+      "active": true
+    },
+    {
+      "code": "800235",
+      "material": "farblos / transparent",
+      "system": "404-15",
+      "aic": "13.17",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Klarlack 404-15/Clearcoat, AIC 13.17, farblos / transparent, glänzend / high gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800236",
+      "material": "farblos / transparent",
+      "system": "404-15",
+      "aic": "13.17",
+      "weight": 10.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Klarlack 404-15/Clearcoat,AIC13.17 , farblos / transparent, Semi-gloss (10kg)",
+      "active": true
+    },
+    {
+      "code": "800237",
+      "material": "0122 golden translucent",
+      "system": "404-53",
+      "aic": "13.21",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST- Decor-Clearcoat 404-53, 0122, golden translucent AIC 13.21, high gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800238",
+      "material": "196 lilac effekt",
+      "system": "404-53",
+      "aic": "13.28",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST- Decor-Clearcoat 404-53, 196, lilac effekt AIC 13.28, glänzend / high gloss(5kg)",
+      "active": true
+    },
+    {
+      "code": "800240",
+      "material": "844 copper haze",
+      "system": "404-53",
+      "aic": "13.38",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST- Decor-Clearcoat 404-53, 844, copper haze AIC 13.38, Semi-gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800241",
+      "material": "948 sparkle white",
+      "system": "404-53",
+      "aic": "13.26",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST- Decor-Clearcoat 404-53, 948, sparkle white AIC 13.26, glänzend / high gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800243",
+      "material": "958 shimmer",
+      "system": "404-53",
+      "aic": "13.27",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST- Decor-Clearcoat 404-53, 958, shimmer AIC 13.27, semi gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800244",
+      "material": "U012 sparkle silver",
+      "system": "404-53",
+      "aic": "13.33",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST- Decor-Clearcoat 404-53, U012, sparkle silver AIC 13.33, Semi-gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800248",
+      "material": "93QU painted warm silver",
+      "system": "404-54",
+      "aic": "9.27",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Metallic Basecoat 404-54, 93QU, painted warm silver AIC 9.27 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800256",
+      "material": "ALEXIT-Härter / Hardener 402",
+      "system": "402",
+      "aic": "",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-Härter / Hardener 402 (6kg/VE)",
+      "active": true
+    },
+    {
+      "code": "800259",
+      "material": "1815 Light Ivory 1015",
+      "system": "414-12",
+      "aic": "",
+      "weight": 10.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Füllgrund 414-12/primer, 1815, Light Ivory 1015 (10kg)",
+      "active": true
+    },
+    {
+      "code": "800270",
+      "material": "FR2-55",
+      "system": "",
+      "aic": "12.36",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "FR2-55 SEMI-GLOSS JANA WHITE AIC12.36 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800279",
+      "material": ".34HG icy pearl",
+      "system": "404-53",
+      "aic": "13.34",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST- Decor-Clearcoat 404-53 AIC 13.34HG icy pearl (5kg)",
+      "active": true
+    },
+    {
+      "code": "800284",
+      "material": "7620 quartz grey quarz grey",
+      "system": "404-12",
+      "aic": "2.11",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 404-12/topcoat 7620 quartz grey AIC2.11 quarz grey (5kg)",
+      "active": true
+    },
+    {
+      "code": "800285",
+      "material": "U157 golden champagne",
+      "system": "404-54",
+      "aic": "3.96",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Metallic Basecoat 404-54 U157 golden champagne AIC 3.96 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800288",
+      "material": "farblos / transparent",
+      "system": "404-15",
+      "aic": "13.17",
+      "weight": 10.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Klarlack 404-15/Clearcoat, AIC 13.17 farblos / transparent, matt / mat (10kg)",
+      "active": true
+    },
+    {
+      "code": "800289",
+      "material": "scalolop beige",
+      "system": "346-55",
+      "aic": "3.46",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "Alexit FST 346-55 AIC 3.46 scalolop beige semi gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800290",
+      "material": "A1000 AD",
+      "system": "",
+      "aic": "53.71",
+      "weight": 1.0,
+      "unit": "kg",
+      "sourceDescription": "A1000 AD MAT DARK GREY FS36044/ASNA5371 BASE AIC53.71 A400M (1kg)",
+      "active": true
+    },
+    {
+      "code": "800291",
+      "material": "A1000 HARDENER A400M",
+      "system": "",
+      "aic": "",
+      "weight": 1.0,
+      "unit": "kg",
+      "sourceDescription": "A1000 HARDENER A400M (1kg)",
+      "active": true
+    },
+    {
+      "code": "800294",
+      "material": "Mapaero Thinner P2",
+      "system": "",
+      "aic": "",
+      "weight": null,
+      "unit": "kg",
+      "sourceDescription": "Mapaero Thinner P2",
+      "active": true
+    },
+    {
+      "code": "800296",
+      "material": "740A dove grey ABS5650BB2-18A",
+      "system": "346-57",
+      "aic": "2.18",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57 740A dove grey AIC2.18 ABS5650BB2-18A (6kg)",
+      "active": true
+    },
+    {
+      "code": "800304",
+      "material": "dawn beige",
+      "system": "346-57",
+      "aic": "3.33",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "Alexit FST 346-57 AIC 3.33 dawn beige semi gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800307",
+      "material": "coal dust",
+      "system": "346-57",
+      "aic": "6.23",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT FST Strukturlack  346-57 AIC 6.23 coal dust (6kg)",
+      "active": true
+    },
+    {
+      "code": "800308",
+      "material": "white lake",
+      "system": "346-57",
+      "aic": "12.45",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "Alexit FST Strukturlack 346-57 AIC12.45 white lake (6kg)",
+      "active": true
+    },
+    {
+      "code": "800309",
+      "material": "70XU lava grey",
+      "system": "346-57",
+      "aic": "2.67",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57 70XU lava grey AIC2.67 semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800326",
+      "material": "light leaf green",
+      "system": "346-65",
+      "aic": "4.24",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "Alexit FST 346-65 AIC 4.24  light leaf green semi gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800336",
+      "material": "70XU lava grey",
+      "system": "346-65",
+      "aic": "2.67",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat 70XU lava grey AIC2.67  (12kg)",
+      "active": true
+    },
+    {
+      "code": "800341",
+      "material": "2.17 pepperdust",
+      "system": "404-12",
+      "aic": "2.10",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST 404-12 AIC2.10/2.17 pepperdust semi gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800342",
+      "material": "fog",
+      "system": "404-12",
+      "aic": "2.16",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "Alexit FST 404-12 AIC2.16 fog semi gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800343",
+      "material": "9185 grey cloud",
+      "system": "404-12",
+      "aic": "2.8",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 404-12/topcoat 9185 grey cloud AIC 2.8 semi gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800346",
+      "material": "FST346-57 moonshadow",
+      "system": "",
+      "aic": "2.32",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "Alexit FST346-57 AIC 2.32 moonshadow (6kg)",
+      "active": true
+    },
+    {
+      "code": "800347",
+      "material": "7363 grey 429",
+      "system": "346-65",
+      "aic": "2.5",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat,7363  AIC 2.5 grey 429 semi gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800348",
+      "material": "70BN grey AMI",
+      "system": "346-65",
+      "aic": "2.59",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat 70BN grey  AMI AIC 2.59 (12 kg)",
+      "active": true
+    },
+    {
+      "code": "800350",
+      "material": "1658 hellbeige",
+      "system": "404-12",
+      "aic": "3.32",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 404-12/topcoat,1658  AIC3.32 hellbeige semi gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800353",
+      "material": "desert cloud",
+      "system": "346-55",
+      "aic": "1.11",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "Alexit-FST Strukturlack 346-55 AIC 1.11 desert cloud (5kg)",
+      "active": true
+    },
+    {
+      "code": "800361",
+      "material": "99QY light grey metallic",
+      "system": "404-54",
+      "aic": "9.63",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Metallic Basecoat 404-54, 99QY, light grey metallic AIC9.63 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800369",
+      "material": "7226 smoke white",
+      "system": "346-57",
+      "aic": "12.5",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-TOPCOAT 346-57, 7226 smoke white AIC 12.5 (6kg)",
+      "active": true
+    },
+    {
+      "code": "800372",
+      "material": "72HX dawn",
+      "system": "346-57",
+      "aic": "1.6",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57, 72HX dawn AIC 1.6 (6kg)",
+      "active": true
+    },
+    {
+      "code": "800375",
+      "material": "773X dream grey",
+      "system": "346-55",
+      "aic": "2.49",
+      "weight": 10.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-55, 773X dream grey AIC 2.49 (10kg)",
+      "active": true
+    },
+    {
+      "code": "800377",
+      "material": "889H autumn dark",
+      "system": "346-57",
+      "aic": "3.75",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57, 889H, autumn dark, AIC 3.75 semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800380",
+      "material": "93QA steel grey 2",
+      "system": "404-72",
+      "aic": "2.72",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Metallic Micro 404-72, 93QA, steel grey 2 AIC 2.72, seidenmatt / silkmat (4kg)",
+      "active": true
+    },
+    {
+      "code": "800388",
+      "material": "U785 bright silver",
+      "system": "404-54",
+      "aic": "9.44",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Metallic Basecoat 404-54, U785, bright silver AIC 9.44 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800395",
+      "material": "medium grey",
+      "system": "346-65",
+      "aic": "2.2",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "Alexit FST 346-65 AIC2.2 medium grey (4kg)",
+      "active": true
+    },
+    {
+      "code": "800397",
+      "material": "893T bronze",
+      "system": "404-54",
+      "aic": "16.14",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Metallic Basecoat 404-54 893T bronze AIC 16.14 (VE/5kg)",
+      "active": true
+    },
+    {
+      "code": "800400",
+      "material": "9137 weiß NCS 0500/ASNA 3687-5352",
+      "system": "346-65",
+      "aic": "",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat 9137 weiß NCS 0500/ASNA 3687-5352 (4kg)",
+      "active": true
+    },
+    {
+      "code": "800403",
+      "material": "7738 white dawn AC12.14",
+      "system": "346-65",
+      "aic": "",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 7738 white dawn AC12.14  (4kg)",
+      "active": true
+    },
+    {
+      "code": "800405",
+      "material": "dream grey",
+      "system": "404-12",
+      "aic": "2.49",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 404-12 AIC2.49 dream grey semi gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800419",
+      "material": "70TM coolgrey 5",
+      "system": "346-57",
+      "aic": "2.64",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-57/topcoat, 70TM, coolgrey 5 AIC 2.64, semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800420",
+      "material": "U160 sandy beige",
+      "system": "346-65",
+      "aic": "6.11",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, U160, sandy beige AIC 6.11, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800421",
+      "material": "19DV dark golden beige",
+      "system": "404-54",
+      "aic": "9.77",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Metallic Basecoat 404-54 19DV dark golden beige AIC9.77 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800422",
+      "material": "99N2 aluminium silver",
+      "system": "404-54",
+      "aic": "9.70",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Metallic Basecoat 404-54, 99N2 aluminium silver AIC 9.70, MV 100:4 (5kg/VE)",
+      "active": true
+    },
+    {
+      "code": "800423",
+      "material": "SEEVENAX-Härter / Hardener 315-00",
+      "system": "315-00",
+      "aic": "",
+      "weight": 2.5,
+      "unit": "l",
+      "sourceDescription": "SEEVENAX-Härter / Hardener 315-00 (2,5L)",
+      "active": true
+    },
+    {
+      "code": "800429",
+      "material": "9215 Schwarz / Black 11.5",
+      "system": "404-12",
+      "aic": "",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 404-12/topcoat, 9215, Schwarz / Black 11.5, semi-gloss (5kg/VE)",
+      "active": true
+    },
+    {
+      "code": "800437",
+      "material": "5432 cobalt",
+      "system": "404-12",
+      "aic": "5.13",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 404-12/topcoat 5432 cobalt AIC 5.13 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800449",
+      "material": "8236 dark brown",
+      "system": "346-65",
+      "aic": "3.3",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 8236, dark brown AIC 3.3, semi-gloss (4KG)",
+      "active": true
+    },
+    {
+      "code": "800452",
+      "material": "73V5 graphite luxor",
+      "system": "346-57",
+      "aic": "6.33",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57 73V5 graphite luxor AIC 6.33, semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800454",
+      "material": "740A dove grey",
+      "system": "404-12",
+      "aic": "2.18",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 404-12 topcoat, 740A, dove grey AIC 2.18, semi-gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800465",
+      "material": "1655 cream grey",
+      "system": "404-12",
+      "aic": "2.12",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 404-12/topcoat,1655 AIC 2.12 cream grey semi gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800466",
+      "material": "747A dolphin",
+      "system": "404-12",
+      "aic": "2.19",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 404-12/topcoat,747A  AIC 2.19 dolphin (5kg)",
+      "active": true
+    },
+    {
+      "code": "800472",
+      "material": "772X aza medium grey",
+      "system": "404-12",
+      "aic": "15.92",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 404-12/topcoat,772X AIC 15.92 aza medium grey semi gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800475",
+      "material": "72T1",
+      "system": "346-65",
+      "aic": "3.87",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat,72T1 AIC 3.87 semi gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800476",
+      "material": "811H moody brown",
+      "system": "346-57",
+      "aic": "3.77",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57, 811H, moody brown AIC 3.77, semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800477",
+      "material": "91B6 bright white",
+      "system": "404-12",
+      "aic": "12.41",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 404-12/ topcoat 91B6 bright white AIC12.41 semi gloss (5kg/VE)",
+      "active": true
+    },
+    {
+      "code": "800490",
+      "material": "346-65/topcoat 5737 pigeonblue",
+      "system": "",
+      "aic": "5.35",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack346-65/topcoat,5737 AIC 5.35 pigeonblue semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800491",
+      "material": "1427 creambeige",
+      "system": "404-12",
+      "aic": "3.9",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 404-12/topcoat,1427 AIC 3.9 creambeige semi gloss AS5650BB3-9B (5kg)",
+      "active": true
+    },
+    {
+      "code": "800493",
+      "material": "72HY dawn medium",
+      "system": "346-56",
+      "aic": "1.7",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST BioProtect 346-56  72HY dawn medium AIC 1.7 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800495",
+      "material": "royal blue",
+      "system": "346-57",
+      "aic": "5.31",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57 AIC 5.31 royal blue (6kg)",
+      "active": true
+    },
+    {
+      "code": "800497",
+      "material": "346-65/topcoat 7750 grau",
+      "system": "",
+      "aic": "2.14",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack346-65/topcoat,7750 AIC2.14 grau (4kg)",
+      "active": true
+    },
+    {
+      "code": "800498",
+      "material": "1684 beige",
+      "system": "404-12",
+      "aic": "3.27",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 404-12/topcoat,1684 AIC 3.27 beige (5kg)",
+      "active": true
+    },
+    {
+      "code": "800502",
+      "material": "5339 cockpit blue",
+      "system": "346-57",
+      "aic": "5.7",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-57/topcoat, 5339, cockpit blue AIC 5.7, semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800504",
+      "material": "850M coal dust",
+      "system": "346-65",
+      "aic": "6.23",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 850M, coal dust AIC 6.23, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800505",
+      "material": "71X2 grey hide 2",
+      "system": "346-65",
+      "aic": "79.53",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "Alexit -FST Strukturlack 346-65/topcoat,71X2 AIC 79.53 grey hide 2 semi gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800524",
+      "material": "PPG UP Filler N58479/T508 + Hardener N59029NV-3 White 1kg",
+      "system": "",
+      "aic": "",
+      "weight": 1.0,
+      "unit": "kg",
+      "sourceDescription": "PPG UP Filler N58479/T508 + Hardener N59029NV-3 White 1kg",
+      "active": true
+    },
+    {
+      "code": "800525",
+      "material": "7807 silbergrau / silver-gray",
+      "system": "343-55",
+      "aic": "",
+      "weight": 10.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Füllgrund 343-55/Primer, 7807, silbergrau / silver-gray matt  (10kg)",
+      "active": true
+    },
+    {
+      "code": "800529",
+      "material": "92CG smoky black",
+      "system": "346-57",
+      "aic": "11.16",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57 92CG smoky black AIC 11.16 (6kg)",
+      "active": true
+    },
+    {
+      "code": "800530",
+      "material": "73VW green charcoal",
+      "system": "346-55",
+      "aic": "1.27",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-55 73VW green charcoal AIC 1.27 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800536",
+      "material": "72HY dawn medium",
+      "system": "346-55",
+      "aic": "1.7",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-55, 72HY dawn medium AIC 1.7, MV 5:1 semi-gloss, (5kg/VE)",
+      "active": true
+    },
+    {
+      "code": "800552",
+      "material": "888H autumn medium",
+      "system": "346-57",
+      "aic": "3.74",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57, 888H autumn medium AIC 3.74, MV 6:1 semi-gloss (6kg/VE)",
+      "active": true
+    },
+    {
+      "code": "800567",
+      "material": "1426 white marble",
+      "system": "404-12",
+      "aic": "15.26",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Strukturlack 404-12/topcoat 1426 white marble AIC 15.26 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800572",
+      "material": "92B7 black aubergine",
+      "system": "346-57",
+      "aic": "11.17",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-57/topcoat, 92B7 black aubergine AIC 11.17, semi-gloss  (6kg)",
+      "active": true
+    },
+    {
+      "code": "800576",
+      "material": "7797 stone grey",
+      "system": "346-65",
+      "aic": "2.13",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 7797, stone grey AIC 2.13, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800578",
+      "material": "3199 fire red",
+      "system": "346-55",
+      "aic": "28.1",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-55 3199 fire red AIC28.1 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800583",
+      "material": "712A space grey",
+      "system": "346-65",
+      "aic": "2.15",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat 712A space grey AIC 2.15 (4kg)",
+      "active": true
+    },
+    {
+      "code": "800585",
+      "material": "72HK dawn dark",
+      "system": "346-65",
+      "aic": "1.8",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65 72HK, dawn dark AIC 1.8, semi gloss(4kg)",
+      "active": true
+    },
+    {
+      "code": "800587",
+      "material": "581J deep grey",
+      "system": "346-65",
+      "aic": "2.43",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat,581J, deep grey AIC 2.43, semi-gloss(4kg)",
+      "active": true
+    },
+    {
+      "code": "800588",
+      "material": "719U grey",
+      "system": "346-65",
+      "aic": "2.46",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 719U, grey AIC 2.46, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800589",
+      "material": "417A thaililac",
+      "system": "346-65",
+      "aic": "5.54",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 417A, thaililac AIC 5.54, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800592",
+      "material": "51B3 mallorca blue",
+      "system": "346-65",
+      "aic": "5.56",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 51B3, mallorca blue AIC 5.56, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800593",
+      "material": "851D rosewood",
+      "system": "346-65",
+      "aic": "3.42",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 851D, rosewood AIC 3.42, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800594",
+      "material": "784U dark porcellain",
+      "system": "346-65",
+      "aic": "3.38",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 784U, dark porcellain AIC 3.38, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800596",
+      "material": "72T5 lake dark",
+      "system": "346-65",
+      "aic": "5.75",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 72T5, lake dark AIC 5.75, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800597",
+      "material": "3505 pantone red 032C",
+      "system": "346-65",
+      "aic": "21.18",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 3505, pantone red 032C AIC 21.18, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800599",
+      "material": "FR2-55 HARDENER",
+      "system": "",
+      "aic": "",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "FR2-55 HARDENER (5kg)",
+      "active": true
+    },
+    {
+      "code": "800602",
+      "material": "5414 navy blue",
+      "system": "346-65",
+      "aic": "5.12",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 5414, navy blue AIC 5.12, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800604",
+      "material": "7390 cream",
+      "system": "346-65",
+      "aic": "3.10",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT FST Strukturlack 346-65 7390 AIC 3.10 cream (4kg/VE)",
+      "active": true
+    },
+    {
+      "code": "800605",
+      "material": "91B6 bright white",
+      "system": "346-65",
+      "aic": "12.41",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat 91B6 bright white AIC 12.41 semi-gloss (4kg/VE)",
+      "active": true
+    },
+    {
+      "code": "800606",
+      "material": "U792 rain blue",
+      "system": "346-65",
+      "aic": "1.12",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, U792, rain blue AIC 1.12, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800607",
+      "material": "761B tin",
+      "system": "346-65",
+      "aic": "2.24",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 761B, tin AIC 2.24, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800609",
+      "material": "9173 pearl white",
+      "system": "346-65",
+      "aic": "12.2",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 9173, pearl white AIC 12.2, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800610",
+      "material": "9176 blanc granite",
+      "system": "346-57",
+      "aic": "12.7",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57  9176 blanc granite AIC 12.7  semi gloss (6KG)",
+      "active": true
+    },
+    {
+      "code": "800643",
+      "material": "9215 Schwarz / Black / Noir 11.5",
+      "system": "346-65",
+      "aic": "",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 9215, Schwarz / Black / Noir 11.5, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800644",
+      "material": "9685 white pearl",
+      "system": "346-65",
+      "aic": "2.68",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 9685, white pearl AIC 2.68, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800645",
+      "material": "1684 beige 870",
+      "system": "346-65",
+      "aic": "3.27",
+      "weight": null,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 1684, beige 870 AIC 3.27, semi-gloss (4k)",
+      "active": true
+    },
+    {
+      "code": "800662",
+      "material": "U842 dark nutmeg",
+      "system": "346-65",
+      "aic": "6.13",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, U842, dark nutmeg AIC 6.13, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800666",
+      "material": "51M7 ice blue",
+      "system": "346-65",
+      "aic": "5.69",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat,51M7 AIC 5.69 ice blue semi gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800674",
+      "material": "7226 smoke white",
+      "system": "346-65",
+      "aic": "12.5",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 7226, smoke white AIC 12.5, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800678",
+      "material": "7619 pepperdust",
+      "system": "346-65",
+      "aic": "2.10",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 7619, pepperdust AIC 2.10, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800679",
+      "material": "70M2 snow grey",
+      "system": "346-65",
+      "aic": "2.61",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 70M2, snow grey AIC 2.61, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800682",
+      "material": "621U light pacific green",
+      "system": "346-65",
+      "aic": "4.23",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 621U, light pacific green AIC 4.23, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800684",
+      "material": "U417 tonal aubergine",
+      "system": "346-65",
+      "aic": "21.23",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, U417, tonal aubergine AIC 21.23, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800685",
+      "material": "U781 desert cloud",
+      "system": "346-65",
+      "aic": "1.11",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, U781, desert cloud AIC 1.11, semi gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800687",
+      "material": "9723 Jana white",
+      "system": "346-55",
+      "aic": "12.36",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST- Topcoat 346-55, 9723 Jana white AIC 12.36, semi-gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800689",
+      "material": "72HK dawn dark",
+      "system": "346-57",
+      "aic": "1.8",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57  72HK dawn dark AIC 1.8 (12kg)",
+      "active": true
+    },
+    {
+      "code": "800691",
+      "material": "740A dove grey",
+      "system": "346-65",
+      "aic": "2.18",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 740A, dove grey AIC 2.18, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800692",
+      "material": "72HX dawn",
+      "system": "346-65",
+      "aic": "1.6",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat,72HX AIC1.6 dawn (4kg/VE)",
+      "active": true
+    },
+    {
+      "code": "800694",
+      "material": "1408 beige eritrea",
+      "system": "346-65",
+      "aic": "3.17",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 1408, beige eritrea  AIC 3.17, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800696",
+      "material": "U780 stone",
+      "system": "346-65",
+      "aic": "3.92",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, U780 stone AIC 3.92 semi gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800702",
+      "material": "899E taupe metallic",
+      "system": "404-72",
+      "aic": "2.78",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Metallic Micro 404-72, 899E, taupe metallic AIC 2.78, seidenmatt / silkmat (4kg)",
+      "active": true
+    },
+    {
+      "code": "800708",
+      "material": "767V taupe",
+      "system": "346-65",
+      "aic": "3.35",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 767V, taupe AIC 3.35, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800714",
+      "material": "U786 british warm grey",
+      "system": "346-65",
+      "aic": "3.93",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat U786 british warm grey AIC 3.93 MV4:1 semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800717",
+      "material": "90CB charcoal",
+      "system": "346-55",
+      "aic": "2.38",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST- Topcoat 346-55, 90CB charcoal, AIC 2.38, MV 5:1 semi-gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800718",
+      "material": "1403 medium beige",
+      "system": "346-65",
+      "aic": "3.2",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 1403, medium beige AIC 3.2, MV 5:1 semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800726",
+      "material": "1427 cremebeige",
+      "system": "346-65",
+      "aic": "3.9",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat 1427 cremebeige AIC 3.9 (4kg)",
+      "active": true
+    },
+    {
+      "code": "800727",
+      "material": "51E5 light pacific blue",
+      "system": "346-65",
+      "aic": "5.65",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 51E5, light pacific blue AIC 5.65, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800734",
+      "material": "120B white 7362",
+      "system": "404-12",
+      "aic": "12.16",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 404-12/topcoat, 120B white 7362 AIC 12.16, MV 20:1 semi-goss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800738",
+      "material": "9723 Jana white",
+      "system": "346-65",
+      "aic": "12.36",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 9723, Jana white AIC 12.36, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800744",
+      "material": "832M reddish grey",
+      "system": "346-65",
+      "aic": "1.29",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 832M, reddish grey AIC 1.29, semi-gloss(4kg)",
+      "active": true
+    },
+    {
+      "code": "800745",
+      "material": "73YV Charcoal Dark Grey AIC 426C",
+      "system": "346-55",
+      "aic": "426",
+      "weight": 10.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-55 73YV Charcoal Dark Grey AIC 426C, matt (10kg)",
+      "active": true
+    },
+    {
+      "code": "800746",
+      "material": "73YU Depp Grey AIC 7540C",
+      "system": "346-55",
+      "aic": "7540",
+      "weight": 10.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-55 73YU Depp Grey AIC 7540C, matt (10kg)",
+      "active": true
+    },
+    {
+      "code": "800750",
+      "material": "909W White BAC70913",
+      "system": "346-57",
+      "aic": "",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57 909W White BAC70913 MV 6:1 semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800752",
+      "material": "FR2-55",
+      "system": "",
+      "aic": "2.49",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "FR2-55 SEMI-GLOSS DREAM GREY/AZA LIGHT AIC2.49 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800753",
+      "material": "FR2-55",
+      "system": "",
+      "aic": "3.11",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "FR2-55 SEMI-GLOSS PARASOL BROWN AIC3.11 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800754",
+      "material": "FR2-55",
+      "system": "",
+      "aic": "12.16",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "FR2-55 SEMI-GLOSS WHITE 7362 AIC12.16 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800757",
+      "material": "7226 smoke white",
+      "system": "346-55",
+      "aic": "12.5",
+      "weight": 10.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-55 7226 smoke white AIC 12.5 semi-gloss (10kg)",
+      "active": true
+    },
+    {
+      "code": "800762",
+      "material": "FR2-55",
+      "system": "",
+      "aic": "2.16",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "FR2-55 SEMI-GLOSS FOG AIC 2.16 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800763",
+      "material": "FR2-55",
+      "system": "",
+      "aic": "2.8",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "FR2-55 SEMI-GLOSS GREY CLOUD AIC 2.8 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800764",
+      "material": "FR2-55",
+      "system": "",
+      "aic": "2.10",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "FR2-55 SEMI-GLOSS PEPPERDUST AIC 2.10 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800772",
+      "material": "FR2-55",
+      "system": "",
+      "aic": "3.25",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "FR2-55 SEMI-GLOSS PORECELAIN AIC3.25 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800799",
+      "material": "191D golden bronze",
+      "system": "404-54",
+      "aic": "16.20",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Metallic Basecoat 404-54 191D AIC 16.20 golden bronze (5kg)",
+      "active": true
+    },
+    {
+      "code": "800800",
+      "material": "72HK dawn dark",
+      "system": "346-56",
+      "aic": "1.8",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST BioProtect 346-56  72HK dawn dark AIC 1.8 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800801",
+      "material": "9723 Jana white",
+      "system": "346-56",
+      "aic": "12.36",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST BioProtect 346-56 9723 Jana white AIC 12.36 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800802",
+      "material": "7708 fog",
+      "system": "346-56",
+      "aic": "2.16",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST BioProtect 346-56 7708 fog AIC 2.16 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800805",
+      "material": "FR2-55",
+      "system": "",
+      "aic": "2.30",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "FR2-55 SEMI-GLOSS SHARK AIC 2.30 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800812",
+      "material": "888H autumn medium",
+      "system": "346-56",
+      "aic": "3.74",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST BioProtect 346-56 888H autumn medium AIC 3.74 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800826",
+      "material": "755E shark",
+      "system": "346-57",
+      "aic": "2.30",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57, 755E shark AIC 2.30, semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800828",
+      "material": "51CE PAL-moonbeam",
+      "system": "346-65",
+      "aic": "2.83",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 51CE PAL-moonbeam AIC 2.83 semi gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800829",
+      "material": "144X soft sand",
+      "system": "346-56",
+      "aic": "2.57",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST BioProtect 346-56 144X soft sand AIC 2.57 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800831",
+      "material": "704U flint stone grey",
+      "system": "346-55",
+      "aic": "50.11",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-55, 704U flint stone grey AIC 50.11 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800832",
+      "material": "70HF dark grey",
+      "system": "346-65",
+      "aic": "2.3",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat 70HF dark grey AIC 2.3  (4kg)",
+      "active": true
+    },
+    {
+      "code": "800833",
+      "material": "92B7 black aubergine",
+      "system": "404-12",
+      "aic": "11.17",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 404-12/topcoat, 92B7 black aubergine AIC 11.17 semi-gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800834",
+      "material": "1424 cloud white",
+      "system": "404-12",
+      "aic": "12.4",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 404-12/ topcoat 1424 cloud white AIC 12.4 semi-gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800835",
+      "material": "FR2-55",
+      "system": "",
+      "aic": "2.38",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "FR2-55 SEMI-GLOSS CHARCOAL AIC 2.38 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800839",
+      "material": "72T3 lake",
+      "system": "346-57",
+      "aic": "5.73",
+      "weight": 12.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57 72T3 lake AIC 5.73 (12kg)",
+      "active": true
+    },
+    {
+      "code": "800841",
+      "material": "lava grey 2.67",
+      "system": "346-56",
+      "aic": "",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST BioProtect 346-56 lava grey 2.67 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800842",
+      "material": "746Q grey 7802",
+      "system": "346-65",
+      "aic": "2.40",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 746Q, grey 7802 AIC 2.40, semi-gloss(4kg)",
+      "active": true
+    },
+    {
+      "code": "800844",
+      "material": "FR2-55",
+      "system": "",
+      "aic": "2.14",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "FR2-55 SEMI-GLOSS STEEL GREY AIC 2.14 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800847",
+      "material": "7620 quartz grey",
+      "system": "346-55",
+      "aic": "2.11",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-55 7620 quartz grey AIC 2.11 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800852",
+      "material": "FR2-55",
+      "system": "",
+      "aic": "2.53",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "FR2-55 SEMI-GLOSS FOGGY AIC 2.53 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800853",
+      "material": "73FG JBC-6023 Dark Gray Pearlescent",
+      "system": "346-57",
+      "aic": "",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57 73FG JBC-6023 Dark Gray Pearlescent, semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800855",
+      "material": "705Y Tuesday Light Grey",
+      "system": "346-55",
+      "aic": "",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-55 705Y Tuesday Light Grey (5kg)",
+      "active": true
+    },
+    {
+      "code": "800857",
+      "material": "75SV blackbird grey",
+      "system": "346-57",
+      "aic": "1.42",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57 75SV AIC 1.42 blackbird grey MR 6:1 semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800858",
+      "material": "75RY falcon grey",
+      "system": "346-56",
+      "aic": "1.39",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST BioProtect 346-56 75RY AIC 1.39 falcon grey MR 5:1 semi-gloss (5KG)",
+      "active": true
+    },
+    {
+      "code": "800859",
+      "material": "12VG savannah beige",
+      "system": "404-12",
+      "aic": "6.76",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 404-12/topcoat 12VG savannah beige AIC 6.76 MV 20:1 semi-gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800860",
+      "material": "092W warm pearl",
+      "system": "404-53",
+      "aic": "13.41",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST- Decor-Clearcoat 404-53 092W warm pearl AIC 13.41 MV 10:1 semi-gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800861",
+      "material": "11TG warm beige",
+      "system": "346-65",
+      "aic": "3.95",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat 11TG warm beige AIC 3.95 MR 4:1 semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800862",
+      "material": "75RY falcon grey",
+      "system": "346-57",
+      "aic": "1.39",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57 75RY AIC 1.39 falcon grey MR 6:1 semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800882",
+      "material": "7362 soft grey 427",
+      "system": "346-65",
+      "aic": "2.4",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat 7362 soft grey 427 AIC 2.4 MR 4:1 semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800883",
+      "material": "7619 pepperdust",
+      "system": "346-55",
+      "aic": "2.10",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-55 7619 pepperdust AIC 2.10 MR 5:1 semi-gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800887",
+      "material": "7362 soft grey 427",
+      "system": "346-57",
+      "aic": "2.4",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57 7362 soft grey 427 AIC 2.4 (6kg)",
+      "active": true
+    },
+    {
+      "code": "800889",
+      "material": "FR1-55 SANDY BEIGE",
+      "system": "",
+      "aic": "",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "FR1-55 SANDY BEIGE (5kg/VE)",
+      "active": true
+    },
+    {
+      "code": "800891",
+      "material": "FR1-55 Hardener",
+      "system": "",
+      "aic": "",
+      "weight": null,
+      "unit": "kg",
+      "sourceDescription": "FR1-55 Hardener (5g/VE)",
+      "active": true
+    },
+    {
+      "code": "800894",
+      "material": "719R frozen grey",
+      "system": "346-57",
+      "aic": "2.47",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57 719R frozen grey AIC 2.47 (6kg)",
+      "active": true
+    },
+    {
+      "code": "800895",
+      "material": "FR2-55",
+      "system": "",
+      "aic": "2.23",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "FR2-55 SEMI-GLOSS SPRING AIC 2.23 (5KG)",
+      "active": true
+    },
+    {
+      "code": "800899",
+      "material": "8239 walnut",
+      "system": "346-65",
+      "aic": "3.16",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat 8239 walnut AIC 3.16 (4kg)",
+      "active": true
+    },
+    {
+      "code": "800900",
+      "material": "FR2-55",
+      "system": "",
+      "aic": "2.28",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "FR2-55 SEMI-GLOSS PEBBLE AIC 2.28 (5KG)",
+      "active": true
+    },
+    {
+      "code": "800904",
+      "material": "71PZ warm fog",
+      "system": "346-65",
+      "aic": "2.82",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 71PZ, warm fog AIC 2.82, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800905",
+      "material": "FR2-55",
+      "system": "",
+      "aic": "2.2",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "FR2-55 SEMI-GLOSS MEDIUM GREY AIC 2.2 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800908",
+      "material": "7671 Pepperdust BAC7801",
+      "system": "404-12",
+      "aic": "",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 404-12/topcoat 7671 Pepperdust BAC7801 , semi-gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800912",
+      "material": "2560 easy-orange",
+      "system": "346-65",
+      "aic": "7.25",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 2560, easy-orange AIC 7.25, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800913",
+      "material": "757U moon dust",
+      "system": "346-65",
+      "aic": "2.41",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat, 757U, moon dust AIC 2.41, semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800915",
+      "material": "602H fir green",
+      "system": "346-55",
+      "aic": "4.33",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-55 602H AIC 4.33 fir green, semi-gloss (5 kg)",
+      "active": true
+    },
+    {
+      "code": "800916",
+      "material": "811Hmoody brown",
+      "system": "346-56",
+      "aic": "3.77",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST BioProtect 346-56 811Hmoody brown AIC 3.77 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800921",
+      "material": "ALEXIT-FST-Topcoat 346-57, AIC 1.27, semi-gloss",
+      "system": "346-57",
+      "aic": "1.27",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57,  AIC 1.27, semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800922",
+      "material": "FR2-55",
+      "system": "",
+      "aic": "1.8",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "FR2-55 SEMI GLOSS DAWN DARK AIC 1.8 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800923",
+      "material": "90CB charcoal",
+      "system": "346-56",
+      "aic": "2.38",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST BioProtect 346-56 90CB charcoal, AIC 2.38 MV 5:1 semi-gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800924",
+      "material": "454E Vivid Deep Violet",
+      "system": "346-57",
+      "aic": "",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57 454E Vivid Deep VioletMR 6:1 semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800925",
+      "material": "FR2-55",
+      "system": "",
+      "aic": "2.1",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "FR2-55 SEMI-GLOSS LIGHT GREY AIC 2.1 (5KG)",
+      "active": true
+    },
+    {
+      "code": "800926",
+      "material": "FR2-55",
+      "system": "",
+      "aic": "",
+      "weight": 1.0,
+      "unit": "kg",
+      "sourceDescription": "FR2-55 SEMI-GLOSS PMSBROWN 476C (1KG)",
+      "active": true
+    },
+    {
+      "code": "800927",
+      "material": "FR2-55",
+      "system": "",
+      "aic": "3.2",
+      "weight": 1.0,
+      "unit": "kg",
+      "sourceDescription": "FR2-55 SEMI-GLOSS MEDIUM BEIGE AIC 3.2 (1KG)",
+      "active": true
+    },
+    {
+      "code": "800929",
+      "material": "346-571402 bright sand",
+      "system": "",
+      "aic": "6.4",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-571402 AIC 6.4 bright sand MV 6:1 semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800930",
+      "material": "53SJ ULN2034 Blue Void",
+      "system": "346-57",
+      "aic": "",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57 53SJ ULN2034 Blue Void MV 6:1 semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800935",
+      "material": "420V swiss burgundy",
+      "system": "346-55",
+      "aic": "21.39",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-55 420V AIC 21.39 swiss burgundy MV 5:1 semi-gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800936",
+      "material": "8928 sparkle taupe",
+      "system": "404-72",
+      "aic": "6.6",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Metallic Basecoat 404-72 8928 AIC 6.6 sparkle taupe MV 4:1 mat(4kg)",
+      "active": true
+    },
+    {
+      "code": "800942",
+      "material": "79AS Warm Nickel",
+      "system": "404-54",
+      "aic": "",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Metallic Basecoat 404-54 79AS Warm Nickel (5kg)",
+      "active": true
+    },
+    {
+      "code": "800943",
+      "material": "5737 pigeonblue",
+      "system": "346-57",
+      "aic": "5.35",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57 5737 pigeonblue AIC 5.35 MV 6:1 semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800944",
+      "material": "531S dark azure blue",
+      "system": "346-57",
+      "aic": "52.5",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57 531S AIC 52.5 dark azure blue MV 6:1 semi-gloss(6kg)",
+      "active": true
+    },
+    {
+      "code": "800946",
+      "material": "539B Deep Navy Blue",
+      "system": "346-65",
+      "aic": "",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 346-65/topcoat 539B Deep Navy Blue MV 4:1 semi-gloss (4kg)",
+      "active": true
+    },
+    {
+      "code": "800947",
+      "material": "FR2-55",
+      "system": "",
+      "aic": "2.24",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "FR2-55 SEMI-GLOSS TIN AIC 2.24 (5KG)",
+      "active": true
+    },
+    {
+      "code": "800948",
+      "material": "72HX dawn",
+      "system": "346-56",
+      "aic": "1.6",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST BioProtect 346-56 72HX dawn AIC 1.6 MV 5:1 semi-gloss(5kg)",
+      "active": true
+    },
+    {
+      "code": "800953",
+      "material": "749A haze",
+      "system": "404-12",
+      "aic": "2.20",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 404-12/topcoat 749A haze AIC 2.20 MV 20:1 semi-gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800956",
+      "material": "692A sparkle green",
+      "system": "404-72",
+      "aic": "4.41",
+      "weight": 4.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Metallic Micro 404-72 692A AIC 4.41 sparkle green MV 4:1 mat (4kg)",
+      "active": true
+    },
+    {
+      "code": "800957",
+      "material": "FR6-55",
+      "system": "",
+      "aic": "12.36",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "FR6-55 SEMI-GLOSS JANA WHITE AIC12.36 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800964",
+      "material": "9914 cool silver smooth",
+      "system": "404-54",
+      "aic": "2.52",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-metallic Basecoat 404-54 9914 cool silver smooth AIC 2.52 (VE/5kg)",
+      "active": true
+    },
+    {
+      "code": "800966",
+      "material": "FR2-55",
+      "system": "",
+      "aic": "3.38",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "FR2-55 SEMI-GLOSS DARK PORCELAIN AIC 3.38 (5kg)",
+      "active": true
+    },
+    {
+      "code": "800967",
+      "material": "RAL 9017 verkehrsschwarz /traffic black",
+      "system": "346-57",
+      "aic": "",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57 RAL 9017 verkehrsschwarz /traffic black MV 6:1 semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800968",
+      "material": "346-57RAL 8019 graubraun / grey brown",
+      "system": "",
+      "aic": "",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57RAL 8019 graubraun / grey brown (6kg)",
+      "active": true
+    },
+    {
+      "code": "800969",
+      "material": "73VW green charcoal",
+      "system": "346-56",
+      "aic": "1.27",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST BioProtect 346-56 73VW green charcoal AIC 1.27 MV 5:1 semi-gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800970",
+      "material": "3199 fire red",
+      "system": "404-12",
+      "aic": "28.1",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 404-12/topcoat 3199 fire red AIC 28.1 MV 20:1 semi-gloss (5kg)",
+      "active": true
+    },
+    {
+      "code": "800974",
+      "material": "73VS hellgrau / light grey NCS S 2002-R",
+      "system": "346-57",
+      "aic": "",
+      "weight": 6.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST-Topcoat 346-57 73VS hellgrau / light grey NCS S 2002-RMV 6:1 semi-gloss (6kg)",
+      "active": true
+    },
+    {
+      "code": "800984",
+      "material": "5333 light blue",
+      "system": "404-12",
+      "aic": "5.1",
+      "weight": 5.0,
+      "unit": "kg",
+      "sourceDescription": "ALEXIT-FST Strukturlack 404-12/topcoat 5333 light blue AIC 5.1 MV 20:1 semi-gloss (5kg)",
+      "active": true
+    }
+  ],
+  "placements": [
+    {
+      "id": "cabinet1|800120|2026-09-29",
+      "cabinetId": "cabinet1",
+      "materialCode": "800120",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    },
+    {
+      "id": "cabinet1|800048|2026-09-29",
+      "cabinetId": "cabinet1",
+      "materialCode": "800048",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    },
+    {
+      "id": "cabinet1|800525|2026-09-29",
+      "cabinetId": "cabinet1",
+      "materialCode": "800525",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    },
+    {
+      "id": "cabinet1|800225|2026-09-29",
+      "cabinetId": "cabinet1",
+      "materialCode": "800225",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    },
+    {
+      "id": "cabinet1|800095|2026-09-29",
+      "cabinetId": "cabinet1",
+      "materialCode": "800095",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    },
+    {
+      "id": "cabinet1|800185|2026-09-29",
+      "cabinetId": "cabinet1",
+      "materialCode": "800185",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    },
+    {
+      "id": "cabinet1|800102|2026-09-29",
+      "cabinetId": "cabinet1",
+      "materialCode": "800102",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    },
+    {
+      "id": "cabinet1|800184|2026-09-29",
+      "cabinetId": "cabinet1",
+      "materialCode": "800184",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    },
+    {
+      "id": "cabinet1|800074|2026-09-29",
+      "cabinetId": "cabinet1",
+      "materialCode": "800074",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    },
+    {
+      "id": "cabinet1|800104|2026-09-29",
+      "cabinetId": "cabinet1",
+      "materialCode": "800104",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    },
+    {
+      "id": "cabinet1|800689|2026-09-29",
+      "cabinetId": "cabinet1",
+      "materialCode": "800689",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    },
+    {
+      "id": "cabinet2a|800924|2026-09-29",
+      "cabinetId": "cabinet2a",
+      "materialCode": "800924",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    },
+    {
+      "id": "cabinet2a|800115|2026-09-29",
+      "cabinetId": "cabinet2a",
+      "materialCode": "800115",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    },
+    {
+      "id": "cabinet2a|800750|2026-09-29",
+      "cabinetId": "cabinet2a",
+      "materialCode": "800750",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    },
+    {
+      "id": "cabinet2a|800572|2026-09-29",
+      "cabinetId": "cabinet2a",
+      "materialCode": "800572",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    },
+    {
+      "id": "cabinet2a|800151|2026-09-29",
+      "cabinetId": "cabinet2a",
+      "materialCode": "800151",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    },
+    {
+      "id": "cabinet2a|800502|2026-09-29",
+      "cabinetId": "cabinet2a",
+      "materialCode": "800502",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    },
+    {
+      "id": "cabinet2a|800422|2026-09-29",
+      "cabinetId": "cabinet2a",
+      "materialCode": "800422",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    },
+    {
+      "id": "cabinet2a|800855|2026-09-29",
+      "cabinetId": "cabinet2a",
+      "materialCode": "800855",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    },
+    {
+      "id": "cabinet2a|800812|2026-09-29",
+      "cabinetId": "cabinet2a",
+      "materialCode": "800812",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    },
+    {
+      "id": "cabinet2a|800696|2026-09-29",
+      "cabinetId": "cabinet2a",
+      "materialCode": "800696",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    },
+    {
+      "id": "cabinet2a|800708|2026-09-29",
+      "cabinetId": "cabinet2a",
+      "materialCode": "800708",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    },
+    {
+      "id": "cabinet2a|800405|2026-09-29",
+      "cabinetId": "cabinet2a",
+      "materialCode": "800405",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    },
+    {
+      "id": "cabinet2a|800687|2026-09-29",
+      "cabinetId": "cabinet2a",
+      "materialCode": "800687",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    },
+    {
+      "id": "cabinet2a|800674|2026-09-29",
+      "cabinetId": "cabinet2a",
+      "materialCode": "800674",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    },
+    {
+      "id": "cabinet2a|800738|2026-09-29",
+      "cabinetId": "cabinet2a",
+      "materialCode": "800738",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    },
+    {
+      "id": "cabinet2b|800493|2026-09-29",
+      "cabinetId": "cabinet2b",
+      "materialCode": "800493",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    },
+    {
+      "id": "cabinet2b|800800|2026-09-29",
+      "cabinetId": "cabinet2b",
+      "materialCode": "800800",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    },
+    {
+      "id": "cabinet2b|800605|2026-09-29",
+      "cabinetId": "cabinet2b",
+      "materialCode": "800605",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    },
+    {
+      "id": "cabinet2b|800801|2026-09-29",
+      "cabinetId": "cabinet2b",
+      "materialCode": "800801",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    },
+    {
+      "id": "cabinet2b|800802|2026-09-29",
+      "cabinetId": "cabinet2b",
+      "materialCode": "800802",
+      "activeFrom": "2026-09-29",
+      "activeTo": null
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "2026-09-29|cabinet1|800120",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet1",
+      "materialCode": "800120",
+      "quantity": 2
+    },
+    {
+      "id": "2026-09-29|cabinet1|800048",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet1",
+      "materialCode": "800048",
+      "quantity": 3
+    },
+    {
+      "id": "2026-09-29|cabinet1|800525",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet1",
+      "materialCode": "800525",
+      "quantity": 4
+    },
+    {
+      "id": "2026-09-29|cabinet1|800225",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet1",
+      "materialCode": "800225",
+      "quantity": 1
+    },
+    {
+      "id": "2026-09-29|cabinet1|800095",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet1",
+      "materialCode": "800095",
+      "quantity": 1
+    },
+    {
+      "id": "2026-09-29|cabinet1|800185",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet1",
+      "materialCode": "800185",
+      "quantity": 2
+    },
+    {
+      "id": "2026-09-29|cabinet1|800102",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet1",
+      "materialCode": "800102",
+      "quantity": 2
+    },
+    {
+      "id": "2026-09-29|cabinet1|800184",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet1",
+      "materialCode": "800184",
+      "quantity": 3
+    },
+    {
+      "id": "2026-09-29|cabinet1|800074",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet1",
+      "materialCode": "800074",
+      "quantity": 3
+    },
+    {
+      "id": "2026-09-29|cabinet1|800104",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet1",
+      "materialCode": "800104",
+      "quantity": 1
+    },
+    {
+      "id": "2026-09-29|cabinet1|800689",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet1",
+      "materialCode": "800689",
+      "quantity": 1
+    },
+    {
+      "id": "2026-09-29|cabinet2a|800924",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet2a",
+      "materialCode": "800924",
+      "quantity": 4
+    },
+    {
+      "id": "2026-09-29|cabinet2a|800115",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet2a",
+      "materialCode": "800115",
+      "quantity": 1
+    },
+    {
+      "id": "2026-09-29|cabinet2a|800750",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet2a",
+      "materialCode": "800750",
+      "quantity": 2
+    },
+    {
+      "id": "2026-09-29|cabinet2a|800572",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet2a",
+      "materialCode": "800572",
+      "quantity": 2
+    },
+    {
+      "id": "2026-09-29|cabinet2a|800151",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet2a",
+      "materialCode": "800151",
+      "quantity": 1
+    },
+    {
+      "id": "2026-09-29|cabinet2a|800502",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet2a",
+      "materialCode": "800502",
+      "quantity": 1
+    },
+    {
+      "id": "2026-09-29|cabinet2a|800422",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet2a",
+      "materialCode": "800422",
+      "quantity": 1
+    },
+    {
+      "id": "2026-09-29|cabinet2a|800855",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet2a",
+      "materialCode": "800855",
+      "quantity": 1
+    },
+    {
+      "id": "2026-09-29|cabinet2a|800812",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet2a",
+      "materialCode": "800812",
+      "quantity": 1
+    },
+    {
+      "id": "2026-09-29|cabinet2a|800696",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet2a",
+      "materialCode": "800696",
+      "quantity": 1
+    },
+    {
+      "id": "2026-09-29|cabinet2a|800708",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet2a",
+      "materialCode": "800708",
+      "quantity": 1
+    },
+    {
+      "id": "2026-09-29|cabinet2a|800405",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet2a",
+      "materialCode": "800405",
+      "quantity": 2
+    },
+    {
+      "id": "2026-09-29|cabinet2a|800687",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet2a",
+      "materialCode": "800687",
+      "quantity": 11
+    },
+    {
+      "id": "2026-09-29|cabinet2a|800674",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet2a",
+      "materialCode": "800674",
+      "quantity": 1
+    },
+    {
+      "id": "2026-09-29|cabinet2a|800738",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet2a",
+      "materialCode": "800738",
+      "quantity": 4
+    },
+    {
+      "id": "2026-09-29|cabinet2b|800493",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet2b",
+      "materialCode": "800493",
+      "quantity": 3
+    },
+    {
+      "id": "2026-09-29|cabinet2b|800800",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet2b",
+      "materialCode": "800800",
+      "quantity": 2
+    },
+    {
+      "id": "2026-09-29|cabinet2b|800605",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet2b",
+      "materialCode": "800605",
+      "quantity": 2
+    },
+    {
+      "id": "2026-09-29|cabinet2b|800801",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet2b",
+      "materialCode": "800801",
+      "quantity": 12
+    },
+    {
+      "id": "2026-09-29|cabinet2b|800802",
+      "date": "2026-09-29",
+      "cabinetId": "cabinet2b",
+      "materialCode": "800802",
+      "quantity": 6
+    }
+  ]
+}
