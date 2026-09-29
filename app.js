@@ -169,7 +169,6 @@ function render() {
   el('cabinetLabel').textContent = currentCabinet().name;
   el('weekLabel').textContent = formatWeekRange(state.weekStart);
   el('searchInput').value = state.search;
-  el('todayBtn').disabled = ymd(startOfWeek(new Date())) === ymd(state.weekStart);
   document.querySelectorAll('.view-panel').forEach(v => v.hidden = true);
   if (state.currentView === 'cabinet') {
     el('cabinetView').hidden = false;
@@ -215,8 +214,11 @@ function renderCabinet() {
     return `<tr>
       <td class="material-cell">
         <div class="material-code">${escapeHtml(m.code)}</div>
-        <div class="material-name">${escapeHtml(m.material || m.sourceDescription)}</div>
-        <div class="mobile-meta"><span>Sistem ${escapeHtml(m.system||'—')}</span><span>AIC ${escapeHtml(m.aic||'—')}</span><span>${weight}</span></div>
+        <div class="material-grid">
+          <span class="meta-chip"><strong>S:</strong>${escapeHtml(m.system||'—')}</span>
+          <span class="meta-chip"><strong>AIC:</strong>${escapeHtml(m.aic||'—')}</span>
+          <span class="meta-chip full"><strong>Težina:</strong>${weight}</span>
+        </div>
       </td>
       ${dateCells}
       <td class="actions-cell"><button class="icon-btn archive" data-code="${escapeHtml(m.code)}" title="Ukloni iz ormara">⋮</button></td>
@@ -233,6 +235,7 @@ function renderCabinet() {
 }
 
 function bindQuantityControls() {
+
 
   document.querySelectorAll('.qty-input').forEach(input => {
     input.addEventListener('input', () => {
@@ -419,9 +422,21 @@ async function exportCsv() {
 
 function wireEvents() {
   el('menuBtn').addEventListener('click',openDrawer); el('drawerClose').addEventListener('click',closeDrawer); el('scrim').addEventListener('click',closeDrawer);
-  el('prevWeek').addEventListener('click',()=>{state.weekStart=addDays(state.weekStart,-7);render();});
-  el('nextWeek').addEventListener('click',()=>{state.weekStart=addDays(state.weekStart,7);render();});
-  el('todayBtn').addEventListener('click',()=>{state.weekStart=startOfWeek(new Date());render();});
+  el('todayBtn').addEventListener('click',()=>{
+    el('weekPickDate').value = ymd(state.weekStart);
+    el('weekDialog').showModal();
+  });
+  el('weekCurrentBtn').addEventListener('click',()=>{
+    state.weekStart = startOfWeek(new Date());
+    el('weekDialog').close();
+    render();
+  });
+  el('weekApplyBtn').addEventListener('click',()=>{
+    const picked = el('weekPickDate').value;
+    state.weekStart = startOfWeek(picked ? parseYmd(picked) : new Date());
+    el('weekDialog').close();
+    render();
+  });
   el('searchInput').addEventListener('input',e=>{state.search=e.target.value;renderCabinet();});
   el('saveBtn').addEventListener('click',saveDraft);
   el('copyTodayBtn').addEventListener('click',copyLatestToToday);

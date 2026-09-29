@@ -64,15 +64,11 @@
     <section id="cabinetView" class="view-panel">
       <div class="toolbar-card cabinet-toolbar">
         <div class="toolbar-top">
-          <div class="week-card">
-            <button id="prevWeek" class="nav-btn" aria-label="Prethodni tjedan">‹</button>
-            <button id="todayBtn" class="week-center ghost-btn" aria-label="Prikaži ovaj tjedan">
-              <small>Tjedan · <span id="cabinetLabel">Ormar 1</span></small>
-              <strong id="weekLabel"></strong>
-              <span class="week-sub">Ovaj tjedan</span>
-            </button>
-            <button id="nextWeek" class="nav-btn" aria-label="Idući tjedan">›</button>
-          </div>
+          <button id="todayBtn" class="week-card week-center ghost-btn" aria-label="Odaberi tjedan">
+            <small>Tjedan · <span id="cabinetLabel">Ormar 1</span></small>
+            <strong id="weekLabel"></strong>
+            <span class="week-sub">Dodirni za odabir tjedna</span>
+          </button>
           <div class="action-stack">
             <button id="copyTodayBtn" class="secondary-btn">Prenesi zadnje stanje na danas</button>
             <button id="addBtn" class="primary-btn">+ Dodaj materijal</button>
@@ -126,6 +122,14 @@
   </main>
 
   <div id="toast" class="toast" role="status"></div>
+
+
+  <dialog id="weekDialog" class="modal compact-modal">
+    <div class="modal-head"><h3>Odaberi tjedan</h3><button class="icon-btn" data-close>×</button></div>
+    <label>Odaberi datum unutar željenog tjedna<input id="weekPickDate" type="date"></label>
+    <p class="help-text modal-help">Aplikacija će otvoriti tjedan u kojem se nalazi odabrani datum.</p>
+    <div class="modal-actions"><button id="weekCurrentBtn" class="ghost-btn" type="button">Ovaj tjedan</button><button data-close class="ghost-btn">Odustani</button><button id="weekApplyBtn" class="primary-btn">Prikaži</button></div>
+  </dialog>
 
   <dialog id="addDialog" class="modal">
     <div class="modal-head"><div><small>Dodavanje u</small><h3 id="addCabinetName">Ormar</h3></div><button class="icon-btn" data-close>×</button></div>
