@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b3a6f">
+  <meta name="color-scheme" content="light">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'none'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>ENIKON Cabinet Control</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon-192.png">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="scrim" class="scrim"></div>
+
+  <aside id="drawer" class="drawer" aria-label="Glavni izbornik">
+    <div class="drawer-top">
+      <div class="brand-mini">
+        <img src="logoenikon.webp" alt="ENIKON Aerospace">
+        <strong>Cabinet Control</strong>
+      </div>
+      <button id="drawerClose" class="icon-btn close-btn" aria-label="Zatvori izbornik">×</button>
+    </div>
+    <div class="drawer-section-title">Ormari</div>
+    <nav id="cabinetNav" class="drawer-nav"></nav>
+    <div class="drawer-divider"></div>
+    <button id="drawerMaterials" class="drawer-link"><span>▦</span><span>Baza materijala</span></button>
+    <button id="drawerData" class="drawer-link"><span>⇩</span><span>Backup i podaci</span></button>
+    <div class="drawer-spacer"></div>
+    <div class="drawer-note">Podaci se spremaju samo lokalno u ovom pregledniku.</div>
+  </aside>
+
+  <header class="app-header">
+    <div class="header-left">
+      <button id="menuBtn" class="menu-btn" aria-label="Otvori izbornik"><span></span><span></span><span></span></button>
+      <img src="logoenikon.webp" class="logo" alt="ENIKON Aerospace">
+      <div class="header-title-wrap">
+        <h1>ENIKON Cabinet Control</h1>
+        <p>Praćenje materijala u ormarima</p>
+      </div>
+    </div>
+    <div class="signature">made by J.P.</div>
+  </header>
+
+  <main class="app-main">
+    <div id="fatal" class="alert error" hidden></div>
+    <section id="firstRun" class="first-run" hidden>
+      <div>
+        <strong>Početno postavljanje</strong>
+        <p>Aplikacija još nema poslovne podatke. Uvezi privatni ENIKON seed/backup koji si dobio uz aplikaciju.</p>
+      </div>
+      <button id="firstImportBtn" class="primary-btn">Uvezi početne podatke</button>
+    </section>
+
+    <div class="page-heading">
+      <div>
+        <span class="eyebrow">Aktivni prikaz</span>
+        <h2 id="viewTitle">Ormar 1</h2>
+      </div>
+      <div id="unsaved" class="save-state">Sve spremljeno</div>
+    </div>
+
+    <section id="cabinetView" class="view-panel">
+      <div class="toolbar-card">
+        <div class="week-nav">
+          <button id="prevWeek" class="nav-btn" aria-label="Prethodni tjedan">‹</button>
+          <div>
+            <small>Tjedan</small>
+            <strong id="weekLabel"></strong>
+          </div>
+          <button id="nextWeek" class="nav-btn" aria-label="Idući tjedan">›</button>
+          <button id="todayBtn" class="ghost-btn">Ovaj tjedan</button>
+        </div>
+        <div class="toolbar-actions">
+          <button id="copyTodayBtn" class="secondary-btn">Prenesi zadnje stanje na danas</button>
+          <button id="addBtn" class="primary-btn">+ Dodaj materijal</button>
+        </div>
+      </div>
+
+      <div class="kpi-grid">
+        <div class="kpi-card"><span class="kpi-icon">▣</span><div><small>Materijala</small><strong id="kpiMaterials">0</strong></div></div>
+        <div class="kpi-card"><span class="kpi-icon">#</span><div><small>Ukupno komada</small><strong id="kpiQty">0</strong></div></div>
+        <div class="kpi-card"><span class="kpi-icon">kg</span><div><small>Ukupna težina</small><strong id="kpiWeight">0 kg</strong></div></div>
+      </div>
+
+      <div class="content-card">
+        <div class="list-toolbar">
+          <label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Pretraži šifru, materijal, sistem ili AIC"></label>
+          <button id="saveBtn" class="save-btn" disabled>Spremi izmjene</button>
+        </div>
+        <div class="table-scroll">
+          <table id="cabinetTable" class="data-table cabinet-table"></table>
+        </div>
+        <div class="table-hint">Na telefonu povuci tablicu lijevo/desno za pregled datuma. Broj možeš promijeniti tipkama − / + ili ga izravno upisati.</div>
+      </div>
+    </section>
+
+    <section id="materialsView" class="view-panel" hidden>
+      <div class="content-card">
+        <div class="list-toolbar">
+          <label class="search-box"><span>⌕</span><input id="masterSearch" type="search" placeholder="Pretraži bazu materijala"></label>
+          <button id="masterAdd" class="primary-btn">+ Novi materijal</button>
+        </div>
+        <div class="table-scroll"><table id="masterTable" class="data-table"></table></div>
+        <p class="help-text">Baza materijala služi za automatsko popunjavanje Materijala, Sistema, AIC-a i Težine kada nešto dodaješ u ormar.</p>
+      </div>
+    </section>
+
+    <section id="dataView" class="view-panel" hidden>
+      <div class="content-card data-actions">
+        <div>
+          <h3>Backup i privatnost</h3>
+          <p id="dataStats" class="help-text"></p>
+          <p class="help-text">Poslovni podaci su u lokalnoj IndexedDB bazi ovog preglednika. Aplikacija nema analytics, cloud bazu ni vanjski API.</p>
+        </div>
+        <div class="data-buttons">
+          <button id="exportBackup" class="primary-btn">Izvezi backup (.json)</button>
+          <button id="exportCsv" class="secondary-btn">Izvezi povijest (.csv)</button>
+          <button id="importBtn" class="secondary-btn">Uvezi backup / početne podatke</button>
+          <input id="importFile" type="file" accept="application/json,.json" hidden>
+          <button id="resetBtn" class="danger-btn">Obriši sve lokalne podatke</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" role="status"></div>
+
+  <dialog id="addDialog" class="modal">
+    <div class="modal-head"><div><small>Dodavanje u</small><h3 id="addCabinetName">Ormar</h3></div><button class="icon-btn" data-close>×</button></div>
+    <label>Šifra materijala<select id="addMaterialCode"></select></label>
+    <div id="addPreview" class="material-preview"></div>
+    <div class="two-col"><label>Početna količina<input id="addQty" type="number" min="0" step="1" inputmode="numeric"></label><label>Datum<input id="addDate" type="date"></label></div>
+    <div class="modal-actions"><button data-close class="ghost-btn">Odustani</button><button id="addConfirm" class="primary-btn">Dodaj u ormar</button></div>
+  </dialog>
+
+  <dialog id="archiveDialog" class="modal">
+    <div class="modal-head"><div><small>Ukloni iz aktivnog ormara</small><h3 id="archiveText"></h3></div><button class="icon-btn" data-close>×</button></div>
+    <input id="archiveCode" type="hidden">
+    <p class="help-text">Materijal se ne briše iz povijesti. Od odabranog datuma samo više neće biti aktivan u ovom ormaru.</p>
+    <label>Datum uklanjanja<input id="archiveDate" type="date"></label>
+    <div class="modal-actions"><button data-close class="ghost-btn">Odustani</button><button id="archiveConfirm" class="danger-btn">Ukloni iz ormara</button></div>
+  </dialog>
+
+  <dialog id="masterDialog" class="modal">
+    <div class="modal-head"><h3 id="masterDialogTitle">Materijal</h3><button class="icon-btn" data-close>×</button></div>
+    <input id="masterOldCode" type="hidden">
+    <label>Šifra<input id="masterCode" inputmode="numeric" placeholder="800000"></label>
+    <label>Materijal<input id="masterMaterial" placeholder="npr. 90CB charcoal"></label>
+    <div class="two-col"><label>Sistem<input id="masterSystem" placeholder="346-57"></label><label>AIC<input id="masterAic" placeholder="2.38"></label></div>
+    <div class="two-col"><label>Težina<input id="masterWeight" type="number" step="0.01" min="0"></label><label>Jedinica<select id="masterUnit"><option value="kg">kg</option><option value="l">L</option></select></label></div>
+    <div class="modal-actions"><button data-close class="ghost-btn">Odustani</button><button id="masterSave" class="primary-btn">Spremi materijal</button></div>
+  </dialog>
+
+  <dialog id="resetDialog" class="modal">
+    <div class="modal-head"><h3>Obriši sve lokalne podatke</h3><button class="icon-btn" data-close>×</button></div>
+    <p class="help-text">Ovo briše bazu materijala, ormara i cijelu povijest na ovom uređaju. Prije toga izvezi backup.</p>
+    <label>Za potvrdu upiši OBRISI<input id="resetWord" autocomplete="off"></label>
+    <div class="modal-actions"><button data-close class="ghost-btn">Odustani</button><button id="resetConfirm" class="danger-btn">Trajno obriši</button></div>
+  </dialog>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
